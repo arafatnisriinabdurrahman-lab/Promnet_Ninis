@@ -3,15 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <title>About Me</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- Konten halaman ditulis di dalam body -->
-<h2>About Me</h2>
+<h1>About Me</h1>
 <nav>
-    <a href="index.html">Home</a> |
-    <a href="ABOUT.html">About</a> |
-    <a href="PROJECT.html">Project</a> |
-    <a href="CONTACT.html">Contact</a> |
+    <a href="index.html">Home</a> 
+    <a href="ABOUT.html">About</a> 
+    <a href="PROJECT.html">Project</a> 
+    <a href="CONTACT.html">Contact</a> 
     <a href="KATALOG.html">Katalog</a>
 </nav>
 <hr>
@@ -48,14 +49,35 @@
       </td>
     </tr>
   </table>
-<h2>Hobi</h2>
-<ol>
-    <li>Membaca buku</li>
-    <li>Bermain Badminton</li>
-    <li>Jalan jalan</li>
-</ol>
+<section class="hobi">
+    <h2>Hobi</h2>
+
+<div class="hobi-item">
+  <div class="emoji">📚</div>
+    <div class="hobi-text">
+    <h3>Membaca buku</h3>
+    <p>Saya suka membaca buku di waktu luang.</p>
+</div>
+</div>
+
+<div class="hobi-item">
+  <div class="emoji">🏸</div>
+  <div class="hobi-text">
+  <h3>Bermain Badminton</h3>
+  <p>Saya suka bermain badminton bersama teman.</p>
+</div>
+</div>
+
+<div class="hobi-item">
+  <div class="emoji">🛫</div>
+  <div class="hobi-text">
+  <h3>Jalan-jalan</h3>
+  <p>Saya suka jalan-jalan bersama keluarga.</p>
+  </div>
+</div>
+</section>
 <h2>Riwayat Pendidikan</h2>
-<ul>
+<ul class="pelajaran">
     <li>MI Al- islam - 2012</li>
     <li>SMPN 1 Ciparay - 2018</li>
     <li>MAN 1 Bandung - 2024</li>
